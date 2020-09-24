@@ -28,7 +28,7 @@ For instance, if you want to debug an iOS feature:
 - Open the `Uno.UI-iOS-only.slnf` solution filter (either via the VS folder view, or the Windows explorer)
 - Build
 
-This technique works for `xamarinios10`, `monoandroid90`, `netstandard2.0` (wasm), and `net461` (Unit Tests).
+This technique works for `xamarinios10`, `MonoAndroid11.0`, `netstandard2.0` (wasm), and `net461` (Unit Tests).
 
 > Note that it's very important to close Visual Studio when editing the `src/crosstargeting_override.props` file, otherwise VS may crash or behave inconsistently.
 
